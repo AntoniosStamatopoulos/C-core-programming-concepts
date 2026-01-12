@@ -61,4 +61,7 @@ int main(int argc, char *argv[])
     fclose(data);
 
     return 0;
-}
+
+} 
+
+// Command-line tool that analyzes a binary file, computing byte statistics and counting values divisible by a given integer.
