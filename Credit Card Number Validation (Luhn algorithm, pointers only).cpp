@@ -4,12 +4,12 @@ int check_card_number(char *str){
 	
 	int pos = 1; 
 	int sum = 0 ;
-	char *p = str +15; // gia na paei sthn teleytaia thesi 
+	char *p = str +15;  
 	
 	while(p>= str ){
 		int digit = *p - '0';
 		
-		if(digit < 0 || digit > 9){ // an den einai psifio o arithmos den einai egkyros
+		if(digit < 0 || digit > 9){ 
 			return 0;
 		}
 		
@@ -54,3 +54,4 @@ int main(int argc, char *argv[] ){
 	
 	
 }
+
