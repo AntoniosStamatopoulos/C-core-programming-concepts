@@ -35,8 +35,6 @@ int main(){
 
     }
 
-    // to & einai san na exw enan akoma pointer 
-    // & dieythinsh 
-    //* periexomeno
+
 
 }
