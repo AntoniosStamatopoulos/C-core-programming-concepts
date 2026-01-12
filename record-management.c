@@ -61,8 +61,7 @@ int main()
     fclose(infile);
     // fclose(positive);
     fclose(negative);
-    //------------------------------------------ β μερος
-
+    
     rewind(positive);
 
     fscanf(positive, "%d", &positives);
@@ -81,3 +80,4 @@ int main()
     fclose(positive);
     return 0;
 }
+// C program demonstrating structured data management using dynamic memory allocation.
