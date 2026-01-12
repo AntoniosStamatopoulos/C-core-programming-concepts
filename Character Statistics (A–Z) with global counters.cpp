@@ -39,7 +39,7 @@ int main(){
 	for (int i = 0; i < 26; i++) {
 	    printf("%c:%d", 'A' + i, array[i]);
 	    if (i < 25) {
-	        printf(" ");   // κενό ανάμεσα στα ζεύγη
+	        printf(" ");   
 	    }
 	}
 	printf("\n");
@@ -49,3 +49,4 @@ int main(){
 	
 	
 }
+
